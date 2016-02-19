@@ -1,7 +1,7 @@
 {
   "name": "marked-example",
   "version": "1.0.0",
-  "description": "An example of using marked in the browser and generating output in a Web Worker",
+  "description": "A basic example demonstrating how you can use Web Workers to generate html from markdown without hanging DOM reactivity",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "highlight": "^0.2.4",
+    "highlight.js": "^9.1.0",
     "marked": "^0.3.5"
   }
 }
