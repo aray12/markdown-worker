@@ -1,0 +1,19 @@
+{
+  "name": "marked-example",
+  "version": "1.0.0",
+  "description": "An example of using marked in the browser and generating output in a Web Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "highlight": "^0.2.4",
+    "marked": "^0.3.5"
+  }
+}
